@@ -233,7 +233,7 @@ h1, h2, h3, p {
 }
 
 .advantages-icon {
-    height: 70px;
+    margin: auto;
 }
 
 .advantages .section-title {
@@ -335,9 +335,11 @@ h1, h2, h3, p {
     margin: 16px auto 30px;
 }
 
+
 .team-icons-item {
     width: 44px;
     height: 44px;
+    border-radius: 50%;
 }
 
 .team-social-list.list {
@@ -350,17 +352,18 @@ h1, h2, h3, p {
     align-items: center;
     width: 44px;
     height: 44px;
+    border-radius: 50%;
 }
 
 .team-social-list .icon {
     fill:currentColor;
 }
 
-.team-social-list:focus,
-.team-social-list :hover {
-    background-color: var(--active-btn-color);
+.team-icons-item:focus,
+.team-icons-item:hover {
+    background: var(--active-btn-color);
     color: var(--primary-white-color);
-    border-radius: 50%;
+
 }
 
 /* Regular Clients */
@@ -466,20 +469,10 @@ h1, h2, h3, p {
 }
 
 .footer-social-list {
-    color: var(--primary-white-color);
-}
-
-.footer-social-list {
     display: flex;
     margin-top: 20px;
-}
 
-.footer-social-list .link {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
+    color: var(--primary-white-color);
 }
 
 .footer-social-item:not(:last-child) {
@@ -490,17 +483,27 @@ h1, h2, h3, p {
 .footer-social-item {
     width: 44px;
     height: 44px;
+}
+
+
+.footer-social-list .link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+
     background: rgba(255, 255, 255, 0.1);
-    background-position: center;
+
     border-radius: 50%;
 }
 
+
 .footer-social-item :hover,
-.footer-social-item:focus {
-    background-color: var(--active-btn-color); 
-    color: var(--primary-white-color);
-    border-radius: 50%; 
-}
+.footer-social-item :focus {
+    background: var(--active-btn-color); 
+
+} 
 
 
 .social-icon {
