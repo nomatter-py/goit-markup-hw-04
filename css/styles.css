@@ -202,7 +202,7 @@ h1, h2, h3, p {
 
 .button:focus,
 .button:hover {
-    background-colo: var(--active-btn-color);
+    background-color: var(--active-btn-color);
 }
 
 
