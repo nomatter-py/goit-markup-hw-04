@@ -155,6 +155,9 @@ h1, h2, h3, p {
 .hero {
     padding-top: 200px;
     height: 600px;
+    max-width: 1600px;
+    margin: 0 auto;
+
     background:   
             linear-gradient(
             rgba(47, 48, 58, 0.4), 
